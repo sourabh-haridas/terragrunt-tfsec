@@ -2,11 +2,6 @@ terraform {
   source = "tfr:///terraform-aws-modules/ec2-instance/aws?version=4.3.0"
 }
 
-# locals {
-#   env_vars = yamldecode(
-#   file("${find_in_parent_folders("common-environment.yaml")}"),
-#   )
-# }
 
 /*include {
   path = find_in_parent_folders()
